@@ -1,6 +1,8 @@
 using System;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
 using RustdisSDK.Interfaces;
 
 namespace RustdisSDK.Extensions

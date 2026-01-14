@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using RustdisSDK.Models;
 
@@ -6,7 +7,7 @@ namespace RustdisSDK.Interfaces
     /// <summary>
     /// Interface para cliente Rustdis
     /// </summary>
-    public interface IRustdisClient
+    public interface IRustdisClient : IDisposable
     {
         /// <summary>
         /// Obtém um valor pela chave

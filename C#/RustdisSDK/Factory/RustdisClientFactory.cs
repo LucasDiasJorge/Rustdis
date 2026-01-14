@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using RustdisSDK.Client;
 using RustdisSDK.Interfaces;
+using System.Threading.Tasks;
 
 namespace RustdisSDK.Factory
 {
